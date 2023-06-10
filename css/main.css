@@ -1,0 +1,63 @@
+body {
+  margin: 3em;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/Celine-discord-6.jpg");
+  background-size: cover;
+  background-position-x: 20%;
+  background-position-y: 20%;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.more-info img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 17em;
+}
+.more-info .title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.more-info .desc {
+  line-height: 1.5rem;
+}
+
+.logo {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 2em;
+  line-height: 3.3rem;
+}
+
+.subhead {
+  font-size: 1.4rem;
+}
+
+section.hero {
+  color: white;
+  height: 90vh;
+}/*# sourceMappingURL=main.css.map */
